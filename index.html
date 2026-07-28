@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a0c">
+  <meta name="description" content="Dheeraj Reddy Mamidi is an Applied AI and ML Engineer building production LLM applications, RAG systems, predictive models, and agentic workflows.">
+  <meta name="author" content="Dheeraj Reddy Mamidi">
+  <meta property="og:title" content="Dheeraj Reddy Mamidi | Applied AI / ML Engineer">
+  <meta property="og:description" content="Production AI systems, measurable outcomes, and responsible engineering.">
+  <meta property="og:type" content="website">
+  <title>Dheeraj Reddy Mamidi | Applied AI / ML Engineer</title>
+
+  <script>
+    document.documentElement.classList.add("is-loading");
+    window.__portfolioLoaderGuard = window.setTimeout(function () {
+      document.documentElement.classList.remove("is-loading");
+      if (document.body) document.body.classList.remove("is-locked");
+    }, 4500);
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/ai-system-hero.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23080a0c'/%3E%3Ctext x='50' y='66' text-anchor='middle' font-family='Arial' font-size='48' font-weight='700' fill='%23c8ff3d'%3EDM%3C/text%3E%3C/svg%3E">
+
+  <script defer src="assets/vendor/gsap.min.js"></script>
+  <script defer src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__top">
+      <span>DM / INTELLIGENCE SYSTEMS</span>
+      <span id="loader-counter">000</span>
+    </div>
+    <div class="loader__word" aria-hidden="true">
+      <span>BUILD</span>
+      <span>REASON</span>
+      <span>SHIP</span>
+    </div>
+    <div class="loader__track"><span id="loader-progress"></span></div>
+  </div>
+
+  <div class="cursor" id="cursor" aria-hidden="true">
+    <span class="cursor__label">VIEW</span>
+  </div>
+  <div class="scroll-meter" aria-hidden="true"><span id="scroll-meter"></span></div>
+
+  <header class="site-nav" id="site-nav">
+    <a class="brand" href="#home">
+      <span class="brand__mark">DM</span>
+      <span class="brand__copy">Applied AI<br>Systems Engineer</span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#impact">Impact</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">Profile</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-status">
+      <span class="status-dot" aria-hidden="true"></span>
+      Available for AI/ML roles
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <picture class="hero__media">
+        <source srcset="assets/ai-system-hero.webp" type="image/webp">
+        <img src="assets/ai-system-hero.png" alt="A glass and metal machine-intelligence structure threaded with luminous data connections" width="1536" height="1024">
+      </picture>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <canvas class="hero__canvas" id="hero-canvas" aria-hidden="true"></canvas>
+
+      <div class="hero__system mono">
+        <span>MODEL: APPLIED_AI</span>
+        <span>LOCATION: USA</span>
+        <span>STATUS: SHIPPING</span>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__kicker mono">LLM APPLICATIONS / RAG / PREDICTIVE ML</p>
+        <h1 class="hero__title" id="hero-title" aria-label="Dheeraj Reddy Mamidi">
+          <span class="hero__line"><span>DHEERAJ</span></span>
+          <span class="hero__line hero__line--offset"><span>REDDY</span></span>
+          <span class="hero__line"><span>MAMIDI</span></span>
+        </h1>
+        <div class="hero__bottom">
+          <p class="hero__summary">
+            I turn ambiguous problems into production AI systems that retrieve better,
+            reason with evidence, and create measurable operational lift.
+          </p>
+          <div class="hero__actions">
+            <a class="action action--primary magnetic" href="#work">
+              <span>Explore systems</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="action action--secondary magnetic" href="resume.pdf" download>
+              <span>Résumé</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__metric hero__metric--one">
+        <strong>5+</strong>
+        <span>Years building<br>AI and data systems</span>
+      </div>
+      <div class="hero__metric hero__metric--two">
+        <strong>500K+</strong>
+        <span>Records scored<br>per day</span>
+      </div>
+
+      <a class="hero__scroll mono" href="#signal">
+        <span>Scroll to decode</span>
+        <i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <section class="signal-strip" id="signal" aria-label="Areas of expertise">
+      <div class="signal-strip__track">
+        <span>Production RAG</span><i></i>
+        <span>Agentic Workflows</span><i></i>
+        <span>Predictive ML</span><i></i>
+        <span>Responsible AI</span><i></i>
+        <span>MLOps</span><i></i>
+        <span>Production RAG</span><i></i>
+        <span>Agentic Workflows</span><i></i>
+        <span>Predictive ML</span><i></i>
+        <span>Responsible AI</span><i></i>
+        <span>MLOps</span><i></i>
+      </div>
+    </section>
+
+    <section class="manifesto section-pad" aria-labelledby="manifesto-title">
+      <div class="section-index mono">01 / PRINCIPLE</div>
+      <div class="manifesto__body">
+        <p class="eyebrow mono">ENGINEERING INTELLIGENCE INTO OPERATIONS</p>
+        <h2 id="manifesto-title">
+          AI earns trust when it is
+          <span class="outline-word">measurable,</span>
+          grounded, and built to survive production.
+        </h2>
+      </div>
+      <p class="manifesto__aside">
+        My work spans retrieval, orchestration, predictive modeling, data platforms,
+        evaluation, and the guardrails that make intelligent systems usable.
+      </p>
+    </section>
+
+    <section class="work section-pad" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow mono">02 / SELECTED SYSTEMS</p>
+          <h2 id="work-title">Work with a signal.</h2>
+        </div>
+        <p>Four systems. Different surfaces. One standard: useful intelligence that can be evaluated and operated.</p>
+      </div>
+
+      <div class="project-stage" id="project-stage">
+        <div class="project-rail" id="project-rail">
+          <article class="project project--lime" data-cursor="DRAG">
+            <div class="project__visual project__visual--pathway" aria-hidden="true">
+              <div class="pathway-grid"></div>
+              <span class="node node--1">LEARNER</span>
+              <span class="node node--2">EMBED</span>
+              <span class="node node--3">RANK</span>
+              <span class="node node--4">EXPLAIN</span>
+              <svg viewBox="0 0 800 520"><path d="M105 270 C220 100 330 420 430 245 S650 85 715 260"/></svg>
+              <strong>01</strong>
+            </div>
+            <div class="project__copy">
+              <div class="project__meta mono"><span>RECOMMENDER</span><span>SLU / 2025</span></div>
+              <h3>Personalized Learning Pathway</h3>
+              <p>A next-best-action engine blending collaborative filtering, content embeddings, and RAG explanations with feedback logging for continuous evaluation.</p>
+              <ul class="project__tags" aria-label="Technologies">
+                <li>FastAPI</li><li>RAG</li><li>Databricks</li><li>Azure</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project project--blue" data-cursor="DRAG">
+            <div class="project__visual project__visual--signal" aria-hidden="true">
+              <div class="signal-orbit signal-orbit--one"></div>
+              <div class="signal-orbit signal-orbit--two"></div>
+              <div class="signal-core">SF</div>
+              <span class="packet packet--1">URL</span>
+              <span class="packet packet--2">AUDIO</span>
+              <span class="packet packet--3">FILES</span>
+              <span class="packet packet--4">CHAT</span>
+              <strong>02</strong>
+            </div>
+            <div class="project__copy">
+              <div class="project__meta mono"><span>GENAI PLATFORM</span><span>FULL STACK</span></div>
+              <h3>SignalForge AI</h3>
+              <p>A capture platform that converts messages, URLs, files, screenshots, and media into structured intelligence cards using reusable agents and streamed APIs.</p>
+              <ul class="project__tags" aria-label="Technologies">
+                <li>Agents</li><li>Next.js</li><li>SSE</li><li>FastAPI</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project project--paper" data-cursor="DRAG">
+            <div class="project__visual project__visual--code" aria-hidden="true">
+              <div class="code-window">
+                <div><span>01</span><code>scan(repo, safe=True)</code></div>
+                <div><span>02</span><code>evidence = retrieve(query)</code></div>
+                <div><span>03</span><code>patch = reason(evidence)</code></div>
+                <div><span>04</span><code>review(patch, grounded=True)</code></div>
+              </div>
+              <div class="scan-line"></div>
+              <strong>03</strong>
+            </div>
+            <div class="project__copy">
+              <div class="project__meta mono"><span>LOCAL RAG COPILOT</span><span>SECURE BY DESIGN</span></div>
+              <h3>CodeAtlas AI</h3>
+              <p>A local-first code understanding and review assistant with secret redaction, structural chunking, evidence retrieval, patch previews, a CLI, and a VS Code scaffold.</p>
+              <ul class="project__tags" aria-label="Technologies">
+                <li>Local-first</li><li>RAG</li><li>CLI</li><li>VS Code</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project project--coral" data-cursor="DRAG">
+            <div class="project__visual project__visual--risk" aria-hidden="true">
+              <div class="risk-radar">
+                <span></span><span></span><span></span><span></span>
+                <i></i>
+              </div>
+              <div class="risk-readout mono">
+                <span>EXPOSURE</span><b>0.74</b>
+                <span>CONTROL</span><b>0.61</b>
+                <span>PRIORITY</span><b>HIGH</b>
+              </div>
+              <strong>04</strong>
+            </div>
+            <div class="project__copy">
+              <div class="project__meta mono"><span>RISK INTELLIGENCE</span><span>LLAMA</span></div>
+              <h3>RiskLens AI</h3>
+              <p>A domain-specific risk analysis system that classifies findings, produces explainable summaries, and recommends remediation instead of behaving like a generic chatbot.</p>
+              <ul class="project__tags" aria-label="Technologies">
+                <li>LLaMA</li><li>Classification</li><li>XAI</li><li>Risk</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="project-progress" aria-hidden="true">
+        <span id="project-progress"></span>
+      </div>
+    </section>
+
+    <section class="impact section-pad" id="impact" aria-labelledby="impact-title">
+      <div class="section-index mono">03 / PROOF</div>
+      <div class="impact__intro">
+        <p class="eyebrow mono">OUTCOMES OVER THEATER</p>
+        <h2 id="impact-title">Measured in production.</h2>
+      </div>
+
+      <div class="metrics">
+        <article class="metric">
+          <div class="metric__number"><span data-count="40">0</span><sup>%</sup></div>
+          <h3>Faster time to answer</h3>
+          <p>LLM-powered research and learning assistant with grounded retrieval.</p>
+          <span class="metric__source mono">SAINT LOUIS UNIVERSITY</span>
+        </article>
+        <article class="metric">
+          <div class="metric__number"><span data-count="14">0</span><sup>%</sup></div>
+          <h3>AUC-ROC improvement</h3>
+          <p>Financial risk models serving high-volume decision workflows.</p>
+          <span class="metric__source mono">BOSTON CONSULTING GROUP</span>
+        </article>
+        <article class="metric">
+          <div class="metric__number"><span data-count="55">0</span><sup>%</sup></div>
+          <h3>Less manual review</h3>
+          <p>BERT document intelligence with field extraction and validation.</p>
+          <span class="metric__source mono">BOSTON CONSULTING GROUP</span>
+        </article>
+        <article class="metric">
+          <div class="metric__number"><span data-count="45">0</span><sup>%</sup></div>
+          <h3>Fewer pipeline errors</h3>
+          <p>Automated schema, integrity, and anomaly quality gates.</p>
+          <span class="metric__source mono">BOSCH</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section-pad" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading section-heading--dark">
+        <div>
+          <p class="eyebrow mono">04 / EXPERIENCE</p>
+          <h2 id="experience-title">Built across the stack.</h2>
+        </div>
+        <p>From data foundations to production inference, retrieval, orchestration, evaluation, and observability.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline__item">
+          <div class="timeline__date mono">2025 — NOW</div>
+          <div class="timeline__role">
+            <h3>GenAI / ML Engineer</h3>
+            <p>Saint Louis University · St. Louis, MO</p>
+          </div>
+          <div class="timeline__detail">
+            <p>Production RAG, hybrid retrieval, multi-agent orchestration, evaluation, and responsible-AI guardrails across institutional knowledge.</p>
+            <div class="timeline__stack mono">LANGGRAPH / FASTAPI / FAISS / AZURE / RAGAS</div>
+          </div>
+        </article>
+        <article class="timeline__item">
+          <div class="timeline__date mono">2023 — 2024</div>
+          <div class="timeline__role">
+            <h3>Data Scientist</h3>
+            <p>Boston Consulting Group · New York, NY</p>
+          </div>
+          <div class="timeline__detail">
+            <p>Financial risk models, document intelligence, explainability, segmentation, and low-latency model services for enterprise clients.</p>
+            <div class="timeline__stack mono">XGBOOST / BERT / SHAP / PYSPARK / SAGEMAKER</div>
+          </div>
+        </article>
+        <article class="timeline__item">
+          <div class="timeline__date mono">2021 — 2022</div>
+          <div class="timeline__role">
+            <h3>Data Engineer</h3>
+            <p>Bosch · Bangalore, India</p>
+          </div>
+          <div class="timeline__detail">
+            <p>Governed data lakes, reliable ETL/ELT, automated data quality, tuned SQL systems, secure APIs, and release automation.</p>
+            <div class="timeline__stack mono">PYSPARK / AIRFLOW / KAFKA / POSTGRESQL / CI/CD</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about" aria-labelledby="about-title">
+      <div class="about__statement">
+        <p class="eyebrow mono">05 / PROFILE</p>
+        <h2 id="about-title">Engineering AI that people can actually use.</h2>
+      </div>
+      <div class="about__copy">
+        <p>
+          I am an Applied AI/ML Engineer with 5+ years designing and shipping LLM
+          applications, RAG systems, predictive models, and data platforms across
+          education, consulting, and enterprise environments.
+        </p>
+        <p>
+          My work is hands-on from prototype to operation: retrieval quality,
+          FastAPI services, model evaluation, cloud deployment, monitoring,
+          explainability, and responsible-AI controls.
+        </p>
+      </div>
+
+      <div class="capability-map">
+        <div class="capability-map__label mono">CAPABILITY MAP</div>
+        <div class="capability-map__group">
+          <h3>Intelligence</h3>
+          <p>LLMs · RAG · LangGraph · LlamaIndex · PyTorch · XGBoost · BERT · SHAP</p>
+        </div>
+        <div class="capability-map__group">
+          <h3>Data</h3>
+          <p>PySpark · Kafka · Airflow · Databricks · PostgreSQL · Snowflake · Neo4j</p>
+        </div>
+        <div class="capability-map__group">
+          <h3>Operation</h3>
+          <p>FastAPI · MLflow · Docker · Kubernetes · AWS · Azure · CI/CD · Observability</p>
+        </div>
+      </div>
+
+      <div class="credentials">
+        <div class="credentials__title mono">CERTIFIED SYSTEMS PRACTICE</div>
+        <ul>
+          <li><span>01</span> Databricks Machine Learning Associate</li>
+          <li><span>02</span> Microsoft Azure AI Engineer Associate</li>
+          <li><span>03</span> AWS Machine Learning – Specialty</li>
+          <li><span>04</span> Databricks Data Engineer Associate</li>
+        </ul>
+      </div>
+
+      <div class="education">
+        <div>
+          <span class="mono">M.S. / INFORMATION SYSTEMS</span>
+          <strong>Southern Illinois University Edwardsville</strong>
+          <p>2022 — 2023 · GPA 3.4 / 4.0</p>
+        </div>
+        <div>
+          <span class="mono">B.E. / COMPUTER SCIENCE</span>
+          <strong>VJIT, Hyderabad</strong>
+          <p>2017 — 2021 · GPA 8.4 / 10</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <canvas class="contact__canvas" id="contact-canvas" aria-hidden="true"></canvas>
+      <div class="contact__meta mono">
+        <span>06 / CONTACT</span>
+        <span>OPEN TO APPLIED AI / ML ROLES</span>
+      </div>
+      <h2 id="contact-title">
+        <span>LET’S BUILD</span>
+        <span>WHAT’S NEXT.</span>
+      </h2>
+      <p>Have a serious AI problem, an ambitious product, or a role where production judgment matters?</p>
+      <div class="contact__actions">
+        <a class="action action--primary magnetic" href="mailto:dheerajmamidi.ai@gmail.com">
+          <span>Start a conversation</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="action action--secondary magnetic" href="https://github.com/dheerajreddy0304-source" target="_blank" rel="noopener noreferrer">
+          <span>GitHub</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+      <div class="contact__direct mono">
+        <a href="mailto:dheerajmamidi.ai@gmail.com">dheerajmamidi.ai@gmail.com</a>
+        <a href="tel:+15752638288">+1 575 263 8288</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>DHEERAJ REDDY MAMIDI</span>
+    <span>APPLIED AI / ML ENGINEER</span>
+    <span>© <span id="year"></span></span>
+    <span id="local-time">--:--:--</span>
+  </footer>
+</body>
+</html>
