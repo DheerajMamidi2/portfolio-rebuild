@@ -1,37 +1,19 @@
 # Dheeraj Reddy Mamidi Portfolio
 
-A cinematic, responsive portfolio for an Applied AI / ML Engineer. The site uses
-plain HTML, CSS, and JavaScript, with locally vendored GSAP files for scroll
-choreography. There is no build step.
-
-## Project
-
-```text
-portfolio-rebuild/
-├── assets/
-│   ├── ai-system-hero.png
-│   ├── ai-system-hero.webp
-│   └── vendor/
-│       ├── gsap.min.js
-│       └── ScrollTrigger.min.js
-├── index.html
-├── styles.css
-├── script.js
-└── resume.pdf
-```
-
-The optimized WebP image is used by default. The PNG is retained as a fallback.
+An editorial research-dossier portfolio for an Applied AI / ML Engineer. The
+site uses plain HTML, CSS, and JavaScript with locally vendored GSAP files for
+the project-case scroll sequence. There is no build step or external runtime.
 
 ## Experience
 
-- Animated system loader and kinetic hero typography
-- Pointer-reactive hero media and custom contextual cursor
-- Scroll-driven project rail on desktop
-- Stacked project sequence on mobile
-- Animated production-impact counters
-- Live network canvases that pause in background tabs
-- Magnetic calls to action and active-section navigation
-- Reduced-motion and low-end-device fallbacks
+- Full-bleed generated research-dossier cover artwork
+- Self-hosted Archivo, Newsreader, and IBM Plex Mono typography
+- Scroll-driven full-page case-file transitions on desktop
+- Stacked, touch-friendly case studies on mobile
+- Production-impact counters and a field-note experience log
+- Accessible navigation, focus states, and 24px minimum touch targets
+- Reduced-motion and missing-GSAP fallbacks
+- Background-tab pausing for continuous ticker motion
 
 ## Preview
 
@@ -43,29 +25,23 @@ Open `http://127.0.0.1:4173`.
 
 ## Content
 
-Most portfolio copy is in `index.html`. Motion behavior is in `script.js`, and
-the visual system is defined by CSS variables at the top of `styles.css`.
+Portfolio copy and contact details live in `index.html`. Motion behavior is in
+`script.js`; the visual system and responsive layouts are in `styles.css`.
 
-Replace the email, GitHub URL, résumé, or project copy directly in `index.html`.
+The optimized `assets/research-dossier-hero-v2.webp` is the primary cover
+image. Its PNG source is retained for sharing metadata and browser fallback.
 
 ## Deployment
 
-This folder can be deployed as a static site on Netlify, GitHub Pages, Vercel,
-Cloudflare Pages, or any standard web server. The publish directory is the project
-root and no build command is required.
-
-The production host should be able to reach:
-
-- `fonts.googleapis.com` and `fonts.gstatic.com`
-
-GSAP and ScrollTrigger are included locally. The page remains readable if those
-scripts are unavailable, but scroll choreography is disabled.
+Deploy this folder directly to Netlify, GitHub Pages, Vercel, Cloudflare Pages,
+or any static server. Use the project root as the publish directory and leave
+the build command empty. Fonts, images, GSAP, and ScrollTrigger are all local.
 
 ## Verification
 
 - JavaScript syntax checked with `node --check`
-- Desktop visual and pinned-scroll checks at 1440 × 900
-- Mobile visual, menu, and overflow checks at 375 × 812
-- Lighthouse desktop: 100 accessibility, best practices, SEO, and agentic browsing
-- Lighthouse mobile: 100 accessibility, best practices, SEO, and agentic browsing
-- Local endpoints verified for the page, résumé, hero image, and GSAP assets
+- Desktop, tablet, and mobile overflow checks at 1440, 768, and 375 pixels
+- Mobile menu, Escape behavior, pinned case states, and static fallbacks tested
+- Lighthouse desktop: 100 performance, accessibility, and best practices
+- Lighthouse mobile: 96 performance, 100 accessibility and best practices
+- Mobile Core Web Vitals lab values: 2.7s LCP, 0.001 CLS, 0ms TBT
